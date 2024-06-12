@@ -296,7 +296,7 @@
             var id = document.getElementById('session-id').value;
             var httpproxy = document.getElementById('session-httpproxy').value;
             var enableShuffling = document.getElementById('session-shuffling').checked;
-            var url = document.getElementById('session-url').value || 'https://www.google.com/';
+            var url = document.getElementById('session-url').value || 'https://www.duckduckgo.com/';
             if (!id) return setError('must generate a session id first');
             api.sessionexists(id, function (value) {
                 if (!value) return setError('session does not exist. try deleting or generating a new session');
