@@ -22,11 +22,11 @@ header img {
 }
 
 table.table-bordered {
-  border: 1px solid #c1c1c1;
+  border: 3px solid #c1c1c1;
 }
 
 table.table-bordered>thead>tr>th {
-  border: 1px solid #c1c1c1;
+  border: 2px solid #c1c1c1;
 }
 
 table.table-bordered>tbody>tr>td {
